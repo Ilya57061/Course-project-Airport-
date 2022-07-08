@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Airlines.Airport">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAQAAABAAAAAAAAQAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Airport\Airport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Person">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIUAAABg=</HashCode>
+      <FileName>Humans\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Passenger">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Airlines.Person" ManuallyRouted="true">
+      <Path>
+        <Point X="6" Y="3.852" />
+        <Point X="6" Y="4.643" />
+        <Point X="5" Y="4.643" />
+        <Point X="5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAEAAAAA=</HashCode>
+      <FileName>Humans\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Buyer">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Airlines.Person" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="3.852" />
+        <Point X="6" Y="4.634" />
+        <Point X="6.875" Y="4.634" />
+        <Point X="6.875" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Humans\Buyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Flight">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAEIAAAAAAACAACAAAAAAABBAAAAAAAAEAAAACAAAA=</HashCode>
+      <FileName>Airport\Flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Ticket">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACAAAADAAAAAAAAAAAAAAAAAAAACgAAAAAAA=</HashCode>
+      <FileName>Airport\Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Plane">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAIAAEAAAAAEAAAAAAAgAAAAoAAAAgAEA=</HashCode>
+      <FileName>Air Vehicle\Plane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Helicopter">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEABAAEAAAAAAAAAAAQAIAAABgIAA=</HashCode>
+      <FileName>Air Vehicle\Helicopter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.Aircraft">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAABAEAAAAAAQAAAAAAAAAAAJAAEAgACQ=</HashCode>
+      <FileName>Air Vehicle\Aircraft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airlines.DataBase">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
